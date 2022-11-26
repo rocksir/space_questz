@@ -503,6 +503,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1678915501, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
+      propertyPath: Crash
+      value: 
+      objectReference: {fileID: 8300000, guid: 5a171001c1aee6c47b3fc364d336c6bd, type: 3}
+    - target: {fileID: 1678915501, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
+      propertyPath: Success
+      value: 
+      objectReference: {fileID: 8300000, guid: ec1009cfaacc25846b70ee43d7c7722f, type: 3}
     - target: {fileID: 701916104904092948, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
       propertyPath: m_RootOrder
       value: 5
