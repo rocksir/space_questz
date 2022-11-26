@@ -8,8 +8,10 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] AudioClip success;
     [SerializeField] AudioClip crash;
     
+    
     [SerializeField] ParticleSystem successParticals;
     [SerializeField] ParticleSystem crashParticals;
+
 
     AudioSource audioSource;
 
