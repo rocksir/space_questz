@@ -242,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5612714268680345967, guid: 840bd4bec208e2244a39d3f959f64141, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.68
+      value: 12.85
       objectReference: {fileID: 0}
     - target: {fileID: 5612714268680345967, guid: 840bd4bec208e2244a39d3f959f64141, type: 3}
       propertyPath: m_LocalPosition.y
@@ -358,14 +358,24 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.636, y: 3, z: -15.52}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.6360006, y: 3.347, z: -19.127}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1046011512 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5933595985130850855, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
+  m_PrefabInstance: {fileID: 8936213598471658086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1446053086 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3390761935398071485, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
+  m_PrefabInstance: {fileID: 8936213598471658086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5612714267732252619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -399,7 +409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5612714268680345967, guid: 840bd4bec208e2244a39d3f959f64141, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.02
+      value: -7.84
       objectReference: {fileID: 0}
     - target: {fileID: 5612714268680345967, guid: 840bd4bec208e2244a39d3f959f64141, type: 3}
       propertyPath: m_LocalPosition.y
@@ -503,6 +513,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1678915501, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
+      propertyPath: crashParticles
+      value: 
+      objectReference: {fileID: 1046011512}
+    - target: {fileID: 1678915501, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
+      propertyPath: successParticles
+      value: 
+      objectReference: {fileID: 1446053086}
     - target: {fileID: 701916104904092948, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
       propertyPath: m_RootOrder
       value: 5
