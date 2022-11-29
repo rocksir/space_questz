@@ -366,6 +366,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1596030290 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3390761935398071485, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
+  m_PrefabInstance: {fileID: 8936213598471658086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2019038773 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5933595985130850855, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
+  m_PrefabInstance: {fileID: 8936213598471658086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5612714267732252619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -503,6 +513,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1678915501, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
+      propertyPath: crashParticles
+      value: 
+      objectReference: {fileID: 2019038773}
+    - target: {fileID: 1678915501, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
+      propertyPath: successParticles
+      value: 
+      objectReference: {fileID: 1596030290}
     - target: {fileID: 701916104904092948, guid: 84661b0ca6ff9164cbf1741de1810a79, type: 3}
       propertyPath: m_RootOrder
       value: 5
